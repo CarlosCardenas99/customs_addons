@@ -1,0 +1,17 @@
+<record id="view_account_move_form_inherit_sunat" model="ir.ui.view">
+    <field name="name">account.move.form.inherit.sunat</field>
+    <field name="model">account.move</field>
+    <field name="arch" type="xml">
+        <xpath expr="//sheet/notebook/page[@name='invoice']/group" position="inside">
+            <group>
+                <field name="sunat_token" readonly="1"/>
+                <field name="sunat_response" readonly="1"/>
+            </group>
+        </xpath>
+    </field>
+</record>
+
+
+
+
+

@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <template id="template" inherit_id="point_of_sale.ClientDetailsEdit">
+            <xpath expr="//div[@class='modal-body']" position="inside">
+                <div class="form-group">
+                    <label class="control-label" for="district">District:</label>
+                    <div class="pos-district-autocomplete">
+                        <input type="text" id="district" name="district" class="form-control" t-att-value="district"/>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

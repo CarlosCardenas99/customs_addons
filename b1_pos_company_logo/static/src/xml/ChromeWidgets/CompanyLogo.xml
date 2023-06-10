@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="CompanyLogo" owl="1">
+        <div class="logo-container" t-if="!env.isMobile" t-on-click="() => this.trigger('toggle-debug-widget')">
+            <img class="pos-logo" t-att-src="company_logo" alt="Logo"/>
+<!--            <h2 class="company-name" t-esc="company_name"/>-->
+       </div>
+    </t>
+
+</templates>

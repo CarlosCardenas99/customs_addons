@@ -1,0 +1,12 @@
+<templates id="template" inherit_id="point_of_sale.template" xml:space="preserve">
+    <t t-extend="PaymentScreenWidget">
+        <t t-jquery=".payment-buttons" t-operation="after">
+            <div class="button js_boleta highlight">
+                <i class="fa fa-file"/> Boleta
+            </div>
+            <div class="button js_factura">
+                <i class="fa fa-file-text-o"/> Factura
+            </div>
+        </t>
+    </t>
+</templates>

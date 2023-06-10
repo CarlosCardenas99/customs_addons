@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates id="template"  xml:space="preserve">
+
+    <t t-name="ClientDetailsEditIdent" t-inherit="point_of_sale-ClientDetailsEdit" t-inherit-mode="extension" owl="1">
+            <xpath expr="//div[hasclass('client-details-box')]" position="inside">
+                    <div class="client-details-box clearfix">
+
+                            <div class="client-detail">
+                                    <span class="label">Tipodocumento</span>
+                                    <input class="detail identification_number" name="Tipodocumento"
+                                                                    t-change="captureChange" t-att-value="
+                                                                    props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</templates>
